@@ -1,9 +1,13 @@
+/* line 1, C:/Users/Nick/Documents/UpdatedToDo/src/todo.sass */
 input[type="checkbox"] {
-	float:left;
-}
-input[type="checkbox"] +li{
-	display:inline-block;
-}
+  float:left; }
+
+/* line 3, C:/Users/Nick/Documents/UpdatedToDo/src/todo.sass */
+input[type="checkbox"] + li {
+  display: inline-block; }
+
+/* line 5, C:/Users/Nick/Documents/UpdatedToDo/src/todo.sass */
 input[type="checkbox"]:checked + li {
-	text-decoration: line-through; color: #ccc;
-}
+  text-decoration: line-through;
+  color: #ccc; }
+
