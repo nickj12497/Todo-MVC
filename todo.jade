@@ -1,0 +1,11 @@
+doctype html
+html
+	head
+		title TodoMVC
+		script(type="text/javascript" href="bundle.js")
+	body
+		form(name="ToDoApp", action="", Method="Get")
+			input(type="text", maxlength="50", name="objective", id="objective", autocomplete="off", onclick="clear")
+			button(onclick="addTo()", type="button") Add
+			br
+			button(type="submit" name="Reset") Reset
